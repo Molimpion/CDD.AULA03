@@ -1,8 +1,10 @@
-sport=int(input("digite o numero de gols: \n"))
-santa=int(input("digite o numero de gols: \n"))
-if sport>santa:
-    print("Sport vencedor")
+time1=input("Qual o nome do seu time?\n")
+time2=input("Qual o nome do adiversario?\n")
+golstime1=int(input("digite o numero de gols: \n"))
+golstime2=int(input("digite o numero de gols: \n"))
+if golstime1>golstime2:
+    print(f"{time1} vencedor")
 else:
-    if santa>sport:
-        print("Santa vencedor")
+    if golstime2>golstime1:
+        print(f"{time2} vencedor")
     else:print("Empate")
